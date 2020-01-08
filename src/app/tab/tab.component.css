@@ -1,0 +1,35 @@
+body {
+  padding-right: 5%;
+  display: inline;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 100%;
+}
+
+.tab {
+  width: 100%;
+}
+
+/* Button */
+
+.button, button {
+  display: inline-flex;
+  align-items: center;
+  padding: 2% 2%;
+  margin-right: 1%;
+  cursor: pointer;
+  background-color: #273D7F;
+  color: white;
+  border: solid;
+  border-color: #5DBCD2;
+}
+
+.button:hover, button:hover {
+  opacity: 0.8;
+  font-weight: normal;
+}
+
+.button:disabled, button:disabled {
+  opacity: 0.5;
+  cursor: auto;
+}

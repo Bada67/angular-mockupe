@@ -1,0 +1,32 @@
+body {
+  padding-right: 5%;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  font-size: 100%;
+}
+
+.top-bar {
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+}
+
+/* Icon */
+
+ i.material-icons {
+  color: #616161;
+  font-size: 250%
+}
+.button, button {
+  display: inline-flex;
+  align-items: center;
+  padding: 2% 2%;
+  cursor: pointer;
+  background-color: none;
+  color: white;
+  border: none;
+}
